@@ -18,3 +18,4 @@ Let's analyze the data set and draw meaningful insights that can help them start
 We will use SQL to analyze the given data and give recommendations to RSVP Movies based on the insights.
 
 We will be carrying out the entire analytics process into four segments, where each segment leads to significant insights from different combinations of tables.
+ 
