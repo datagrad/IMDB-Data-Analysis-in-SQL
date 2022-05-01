@@ -4,6 +4,9 @@ This analysis is carried out to support RSVP Movies with a well-analyzed list of
 
 With this, we will be able to answer a set of analytical questions to suggest RSVP Production House on which set of actors, directors, and production houses would be the best fit for a super hit commercial movie.
 
+![IMDB Data Analysis in MySQL](https://user-images.githubusercontent.com/73750698/166145297-0e4eaa5f-1eaa-45c1-873a-2834a5ff8747.png)
+
+
 ## About RSVP
 RSVP Movies is an Indian film production company that has produced many super-hit movies. They have usually released movies for the Indian audience but for their next project, they are planning to release a movie for the global audience in 2022.
 
