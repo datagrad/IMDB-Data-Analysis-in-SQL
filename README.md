@@ -44,8 +44,11 @@ Based on 7,997 released and recorded on IMDB between 2017 and 2019, a summary of
 * If considered movies released in 2017 in USA, and with a minimum of 1,000 votes, people prefer Drama movies much more than other, followed by comedy, action, and thriller.
 9.	Top Grossing Movies
 * The highest-grossing movies of each year are:
+
 i.	Thank You for Your Service, a comedy movie released in 2017
+
 ii.	The Villain, a thriller movie released in 2018
+
 iii.	Joker, a drama movie released in 2019
 
 ### 2.	Recommendation:
