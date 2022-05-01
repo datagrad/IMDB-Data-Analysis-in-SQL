@@ -22,10 +22,10 @@ We will use SQL to analyze the given data and give recommendations to RSVP Movie
 
 We will be carrying out the entire analytics process into four segments, where each segment leads to significant insights from different combinations of tables.
  
-# Getting Database Ready for the Project
+# 1. Getting Database Ready for the Project
 
 
-## 1. Check the List of Database
+## a. Check the List of Database
 
 * The very first step of any MySQL analysis is to access the database and check if related data is available or not.
 * Use `show databases;` to access the list of databases:
@@ -39,7 +39,7 @@ We will be carrying out the entire analytics process into four segments, where e
 | org      |
 
 
-## 2. Create Database
+## b. Create Database
 * Create a new database for this project.
 * Use `Create database IMDB;`
 * Use `show databases;` to confirm the list of databases:
@@ -53,12 +53,12 @@ We will be carrying out the entire analytics process into four segments, where e
 | market_star_schema      |
 | org      |
 
-## 3. Use Database
+## c. Use Database
 * Instruct the system to use `*IMDB Database*` by running `use imdb;`
 
 
 
-# Creating Table
+# 2. Creating Table
 
 ### Steps to follow before creating the table:
 
@@ -82,7 +82,7 @@ For this project we need a total of 6 tables:
 | 6	| role_mapping      |
 
 
-### 1. Create Table Movie
+### a. Create Table Movie
 ```
 CREATE TABLE movie (
   id VARCHAR(10) NOT NULL primary key,
@@ -99,7 +99,7 @@ CREATE TABLE movie (
 ```
 
 
-### 2. Create Table Genre
+### b. Create Table Genre
 ```
 CREATE TABLE genre (
 	movie_id VARCHAR(10),
@@ -108,18 +108,19 @@ CREATE TABLE genre (
 );
 ```
 
-### 3. Create Table director_mapping
+### c. Create Table director_mapping
 ```
 CREATE TABLE director_mapping (
 	movie_id VARCHAR(10),
         name_id VARCHAR(10),
 	PRIMARY KEY (movie_id, name_id)
 );
+
+```
 ***
 
 
-```
-### 4. Create Table role_mapping
+### d. Create Table role_mapping
 ```
 CREATE TABLE role_mapping (
 	movie_id VARCHAR(10) NOT NULL,
@@ -133,7 +134,7 @@ CREATE TABLE role_mapping (
 ***
 
 
-### 5. Create Table names
+### e. Create Table names
 ```
 CREATE TABLE names (
   id varchar(10) NOT NULL,
@@ -148,7 +149,7 @@ CREATE TABLE names (
 
 ***
 
-### 6. Create Table ratings
+### f. Create Table ratings
 ```
 CREATE TABLE ratings (
 	movie_id VARCHAR(10) NOT NULL,
@@ -165,12 +166,12 @@ Now, Run `show tables;` to ensure that all the six tables are created.
 
 
 
-# Data Insertion
+# 3. Data Insertion
 
 In the previous steps, we created six tables. Now, we will insert the data into these tables.
 Here, we will be showing the syntax of 5 rows insertion into each table. (The complete data insertion syntax is available in the Repository)
 
-## 1. Inserting data into Movie Table
+## a. Inserting data into Movie Table
 
 ```
 INSERT INTO movie VALUES
@@ -182,7 +183,7 @@ INSERT INTO movie VALUES
 ```
 ***
 
-## 2. Inserting data into Genre Table
+## b. Inserting data into Genre Table
 
 ```
 INSERT INTO genre VALUES
@@ -196,7 +197,7 @@ INSERT INTO genre VALUES
 ***
 
 
-## 3. Inserting data into Director_Mapping Table
+## c. Inserting data into Director_Mapping Table
 
 ```
 INSERT INTO director_mapping VALUES
@@ -210,7 +211,7 @@ INSERT INTO director_mapping VALUES
 ***
 
 
-## 4. Inserting data into Role_Mapping Table
+## d. Inserting data into Role_Mapping Table
 
 ```
 INSERT INTO role_mapping VALUES
@@ -225,7 +226,7 @@ INSERT INTO role_mapping VALUES
 
 
 
-## 5. Inserting data into Names Table
+## e. Inserting data into Names Table
 
 ```
 INSERT INTO names VALUES
@@ -239,7 +240,7 @@ INSERT INTO names VALUES
 ***
 
 
-## 6. Inserting data into Ratings Table
+## f. Inserting data into Ratings Table
 
 ```
 INSERT INTO ratings VALUES
