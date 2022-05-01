@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# IMDB-Analysis-in-SQL
 
-You can use the [editor on GitHub](https://github.com/datagrad/IMDB-Analysis-in-SQL/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This analysis is carried out to support RSVP Movies with a well-analyzed list of global stars to plan a movie for the global audience in 2022.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+With this, we will be able to answer a set of analytical questions to suggest RSVP Production House on which set of actors, directors, and production houses would be the best fit for a super hit commercial movie.
 
-### Markdown
+## About RSVP
+RSVP Movies is an Indian film production company that has produced many super-hit movies. They have usually released movies for the Indian audience but for their next project, they are planning to release a movie for the global audience in 2022.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Why this Analysis?
+The production company wants to plan its every move analytically based on data and has approached for help with this new project.
 
-```markdown
-Syntax highlighted code block
+We have been provided with the data of the movies that have been released in the past three years.
+Let's analyze the data set and draw meaningful insights that can help them start their new project. 
 
-# Header 1
-## Header 2
-### Header 3
+ 
+## Tool Stack
+We will use SQL to analyze the given data and give recommendations to RSVP Movies based on the insights.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/datagrad/IMDB-Analysis-in-SQL/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We will be carrying out the entire analytics process into four segments, where each segment leads to significant insights from different combinations of tables.
