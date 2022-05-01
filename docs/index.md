@@ -6,6 +6,8 @@ With this, we will be able to answer a set of analytical questions to suggest RS
 
 ![IMDB Data Analysis in MySQL](https://user-images.githubusercontent.com/73750698/166145297-0e4eaa5f-1eaa-45c1-873a-2834a5ff8747.png)
 
+***
+***
 
 ## About RSVP
 RSVP Movies is an Indian film production company that has produced many super-hit movies. They have usually released movies for the Indian audience but for their next project, they are planning to release a movie for the global audience in 2022.
@@ -21,7 +23,10 @@ Let's analyze the data set and draw meaningful insights that can help them start
 We will use SQL to analyze the given data and give recommendations to RSVP Movies based on the insights.
 
 We will be carrying out the entire analytics process into four segments, where each segment leads to significant insights from different combinations of tables.
- 
+
+***
+***
+
 # 1. Getting Database Ready for the Project
 
 
@@ -57,6 +62,8 @@ We will be carrying out the entire analytics process into four segments, where e
 * Instruct the system to use `*IMDB Database*` by running `use imdb;`
 
 
+***
+***
 
 # 2. Creating Table
 
@@ -98,6 +105,7 @@ CREATE TABLE movie (
 
 ```
 
+***
 
 ### b. Create Table Genre
 ```
@@ -107,6 +115,8 @@ CREATE TABLE genre (
 	PRIMARY KEY (movie_id, genre)
 );
 ```
+
+***
 
 ### c. Create Table director_mapping
 ```
@@ -164,7 +174,8 @@ CREATE TABLE ratings (
 
 Now, Run `show tables;` to ensure that all the six tables are created.
 
-
+***
+***
 
 # 3. Data Insertion
 
@@ -285,7 +296,8 @@ TRUNCATE Names;
 TRUNCATE Ratings;
 ```
 
-
+***
+***
 
 # Insert Complete data
 
