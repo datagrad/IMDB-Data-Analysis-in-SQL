@@ -45,11 +45,11 @@ Based on 7,997 released and recorded on IMDB between 2017 and 2019, a summary of
 9.	Top Grossing Movies
 * The highest-grossing movies of each year are:
 
-i.	Thank You for Your Service, a comedy movie released in 2017
+   i.	Thank You for Your Service, a comedy movie released in 2017
 
-ii.	The Villain, a thriller movie released in 2018
+   ii.	The Villain, a thriller movie released in 2018
 
-iii.	Joker, a drama movie released in 2019
+   iii.	Joker, a drama movie released in 2019
 
 ### 2.	Recommendation:
 Based on Insights, the recommendations for RSVP are as following:
