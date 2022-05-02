@@ -1,4 +1,5 @@
 # IMDB-Analysis-in-SQL
+![glow (1)](https://user-images.githubusercontent.com/73750698/166188931-4626fcad-4b1d-4abb-bbd7-dc4ad0b6cee2.png)
 
 ***
 
@@ -322,5 +323,4 @@ Run the command to insert complete data:
 
 
 
-
-# ABC
+![glow](https://user-images.githubusercontent.com/73750698/166187815-ae658e89-70cc-430f-bc80-9508b6c35fed.png)
