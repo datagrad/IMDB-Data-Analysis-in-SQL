@@ -1,4 +1,7 @@
 # IMDB Data Analysis in SQL
+
+<a href="https://datagrad.github.io/"><img src="https://img.shields.io/badge/My%20Data%20Science%20Projects-Click%20here%20to%20Check%20my%20other%20Projects-blue">
+
 ![glow (1)](https://user-images.githubusercontent.com/73750698/166188931-4626fcad-4b1d-4abb-bbd7-dc4ad0b6cee2.png)
 
 ***
