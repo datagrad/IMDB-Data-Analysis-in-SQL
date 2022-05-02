@@ -1,12 +1,14 @@
 # IMDB-Analysis-in-SQL
 
 ***
+
 **Table of Content (TOC)**
 
 1. [Overview](#Overview)
 2. [Database Creation for the Project](#Database-Creation)
 3. [Table Creation](#Table-Creation)
 4. [Data Insertion](#Data-Insertion)
+
 ***
 
 ## 1. Overview {#Overview}
