@@ -28,7 +28,7 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 1. Database Creation for the Project
+## 2. Database Creation for the Project
 
 
 ### a. Check the List of Database
@@ -66,7 +66,7 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 2. Creating Table
+## 3. Table Creation
 
 #### Steps to follow before creating the table:
 
@@ -178,7 +178,7 @@ Now, Run `show tables;` to ensure that all the six tables are created.
 ***
 ***
 
-## 3. Data Insertion
+## 4. Data Insertion
 
 In the previous steps, we created six tables. Now, we will insert the data into these tables.
 Here, we will be showing the syntax of 5 rows insertion into each table. (The complete data insertion syntax is available in the Repository)
