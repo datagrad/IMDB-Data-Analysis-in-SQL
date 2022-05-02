@@ -3,12 +3,12 @@
 
 [go to heading](#AAAA)
 
-
+[123](#Insert-Complete-data)
 
 ***
 
-1. [Overview](#1._Overview)
-2. [Database Creation for the Project](#2._Database_Creation_for_the_Project)
+1. [Overview](#1.-Overview)
+2. [Database Creation for the Project](#2.-Database-Creation-for-the-Project)
 3. Table Creation
 4. Data Insertion
 ***
@@ -313,7 +313,8 @@ TRUNCATE Ratings;
 ***
 ***
 
-## Insert Complete data {#AAAA}
+## Insert Complete data
+{#AAAA}
 
 Run the command to insert complete data:
 [IMDB File 3 Insert all data](https://github.com/datagrad/IMDB-Analysis-in-SQL/blob/main/IMDB%20File%203%20Insert%20all%20data.sql)
