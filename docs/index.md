@@ -1,5 +1,13 @@
 # IMDB-Analysis-in-SQL
 
+***
+
+1. Overview
+2. Database Creation for the Project
+3. Table Creation
+4. Data Insertion
+***
+
 ## 1. Overview
 This analysis is carried out to support RSVP Movies with a well-analyzed list of global stars to plan a movie for the global audience in 2022.
 
