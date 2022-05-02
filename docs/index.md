@@ -1,5 +1,6 @@
 # IMDB-Analysis-in-SQL
 
+## 1. Overview
 This analysis is carried out to support RSVP Movies with a well-analyzed list of global stars to plan a movie for the global audience in 2022.
 
 With this, we will be able to answer a set of analytical questions to suggest RSVP Production House on which set of actors, directors, and production houses would be the best fit for a super hit commercial movie.
@@ -9,17 +10,17 @@ With this, we will be able to answer a set of analytical questions to suggest RS
 ***
 ***
 
-## About RSVP
+### About RSVP
 RSVP Movies is an Indian film production company that has produced many super-hit movies. They have usually released movies for the Indian audience but for their next project, they are planning to release a movie for the global audience in 2022.
 
-## Why this Analysis?
+### Why this Analysis?
 The production company wants to plan its every move analytically based on data and has approached for help with this new project.
 
 We have been provided with the data of the movies that have been released in the past three years.
 Let's analyze the data set and draw meaningful insights that can help them start their new project. 
 
  
-## Tool Stack
+### Tool Stack
 We will use SQL to analyze the given data and give recommendations to RSVP Movies based on the insights.
 
 We will be carrying out the entire analytics process into four segments, where each segment leads to significant insights from different combinations of tables.
@@ -27,10 +28,10 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-# 1. Getting Database Ready for the Project
+## 1. Database Creation for the Project
 
 
-## a. Check the List of Database
+### a. Check the List of Database
 
 * The very first step of any MySQL analysis is to access the database and check if related data is available or not.
 * Use `show databases;` to access the list of databases:
@@ -44,7 +45,7 @@ We will be carrying out the entire analytics process into four segments, where e
 | org      |
 
 
-## b. Create Database
+### b. Create Database
 * Create a new database for this project.
 * Use `Create database IMDB;`
 * Use `show databases;` to confirm the list of databases:
@@ -58,16 +59,16 @@ We will be carrying out the entire analytics process into four segments, where e
 | market_star_schema      |
 | org      |
 
-## c. Use Database
+### c. Use Database
 * Instruct the system to use `*IMDB Database*` by running `use imdb;`
 
 
 ***
 ***
 
-# 2. Creating Table
+## 2. Creating Table
 
-### Steps to follow before creating the table:
+#### Steps to follow before creating the table:
 
 * Download the IMDb dataset. And try to understanding every table and its importance.
 * Understand the ERD and the table details. Study them carefully and understand the relationships between the table.
@@ -75,7 +76,7 @@ We will be carrying out the entire analytics process into four segments, where e
 * Draft your table with the correct Data Type and Constraints in a paper or note file.
 * Open your MySQL Workbench and start writing the DDL and DML commands to create the database.
 
-## Create Table
+### Create Table
 
 For this project we need a total of 6 tables:
 
@@ -89,7 +90,7 @@ For this project we need a total of 6 tables:
 | 6	| role_mapping      |
 
 
-### a. Create Table Movie
+#### a. Create Table Movie
 ```
 CREATE TABLE movie (
   id VARCHAR(10) NOT NULL primary key,
@@ -107,7 +108,7 @@ CREATE TABLE movie (
 
 ***
 
-### b. Create Table Genre
+#### b. Create Table Genre
 ```
 CREATE TABLE genre (
 	movie_id VARCHAR(10),
@@ -118,7 +119,7 @@ CREATE TABLE genre (
 
 ***
 
-### c. Create Table director_mapping
+#### c. Create Table director_mapping
 ```
 CREATE TABLE director_mapping (
 	movie_id VARCHAR(10),
@@ -130,7 +131,7 @@ CREATE TABLE director_mapping (
 ***
 
 
-### d. Create Table role_mapping
+#### d. Create Table role_mapping
 ```
 CREATE TABLE role_mapping (
 	movie_id VARCHAR(10) NOT NULL,
@@ -144,7 +145,7 @@ CREATE TABLE role_mapping (
 ***
 
 
-### e. Create Table names
+#### e. Create Table names
 ```
 CREATE TABLE names (
   id varchar(10) NOT NULL,
@@ -159,7 +160,7 @@ CREATE TABLE names (
 
 ***
 
-### f. Create Table ratings
+#### f. Create Table ratings
 ```
 CREATE TABLE ratings (
 	movie_id VARCHAR(10) NOT NULL,
@@ -177,12 +178,12 @@ Now, Run `show tables;` to ensure that all the six tables are created.
 ***
 ***
 
-# 3. Data Insertion
+## 3. Data Insertion
 
 In the previous steps, we created six tables. Now, we will insert the data into these tables.
 Here, we will be showing the syntax of 5 rows insertion into each table. (The complete data insertion syntax is available in the Repository)
 
-## a. Inserting data into Movie Table
+### a. Inserting data into Movie Table
 
 ```
 INSERT INTO movie VALUES
@@ -194,7 +195,7 @@ INSERT INTO movie VALUES
 ```
 ***
 
-## b. Inserting data into Genre Table
+### b. Inserting data into Genre Table
 
 ```
 INSERT INTO genre VALUES
@@ -208,7 +209,7 @@ INSERT INTO genre VALUES
 ***
 
 
-## c. Inserting data into Director_Mapping Table
+### c. Inserting data into Director_Mapping Table
 
 ```
 INSERT INTO director_mapping VALUES
@@ -222,7 +223,7 @@ INSERT INTO director_mapping VALUES
 ***
 
 
-## d. Inserting data into Role_Mapping Table
+### d. Inserting data into Role_Mapping Table
 
 ```
 INSERT INTO role_mapping VALUES
@@ -237,7 +238,7 @@ INSERT INTO role_mapping VALUES
 
 
 
-## e. Inserting data into Names Table
+### e. Inserting data into Names Table
 
 ```
 INSERT INTO names VALUES
@@ -251,7 +252,7 @@ INSERT INTO names VALUES
 ***
 
 
-## f. Inserting data into Ratings Table
+### f. Inserting data into Ratings Table
 
 ```
 INSERT INTO ratings VALUES
@@ -265,7 +266,7 @@ INSERT INTO ratings VALUES
 ***
 
 
-## Checking tables for inserted Values:
+### Checking tables for inserted Values:
 
 `Select * from Movie;`
 
@@ -299,7 +300,7 @@ TRUNCATE Ratings;
 ***
 ***
 
-# Insert Complete data
+## Insert Complete data
 
 Run the command to insert complete data:
 [IMDB File 3 Insert all data](https://github.com/datagrad/IMDB-Analysis-in-SQL/blob/main/IMDB%20File%203%20Insert%20all%20data.sql)
