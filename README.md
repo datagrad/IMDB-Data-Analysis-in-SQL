@@ -40,7 +40,7 @@ Based on 7,997 released and recorded on IMDB between 2017 and 2019, a summary of
   * Taapsee Pannu, Divya Dutta, and Kriti Kharbanda are the top three Hindi Speaking actress who have acted at least in three movies.
   * Parvathy Thiruvothu, Susan Brown, and Amanda Lawrence are the best rated actresses in Drama genre. 
 
-#### 8.	Top-10 movies based on average rating are: Kirket, Love in Kilnerry, Gini Helida Kathe, Runam, Fan, Android Kunjappan Version 5.25,	Yeh Suhaagraat Impossible, Safe, The Brighton Miracle, and	Shibu.
+#### 8.	Top-10 movies based on average rating are: Kirket, Love in Kilnerry, Gini Helida Kathe, Runam, Fan, Android Kunjappan Version 5.25,	Yeh Suhaagraat Impossible, Safe, The Brighton Miracle, and	Shibu
   * Based on Median rating counts, most of the movies are rated between 5 and 8, and falls under hit movie categories.
   * If considered movies released in 2017 in USA, and with a minimum of 1,000 votes, people prefer Drama movies much more than other, followed by comedy, action, and thriller.
 #### 9.	Top Grossing Movies
