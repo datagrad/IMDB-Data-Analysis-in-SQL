@@ -1,19 +1,17 @@
 # IMDB-Analysis-in-SQL
 
+***
+**Table of Content (TOC)**
 
-[go to heading](#AAAA)
-
-[123](#Insert-Complete-data)
-
+1. [Overview](#Overview)
+2. [Database Creation for the Project](#Database-Creation)
+3. [Table Creation](#Table-Creation)
+4. [Data Insertion](#Data-Insertion)
 ***
 
-1. [Overview](#1.-Overview)
-2. [Database Creation for the Project](#2.-Database-Creation-for-the-Project)
-3. Table Creation
-4. Data Insertion
-***
+## 1. Overview {#Overview}
 
-## 1. Overview
+
 This analysis is carried out to support RSVP Movies with a well-analyzed list of global stars to plan a movie for the global audience in 2022.
 
 With this, we will be able to answer a set of analytical questions to suggest RSVP Production House on which set of actors, directors, and production houses would be the best fit for a super hit commercial movie.
@@ -41,7 +39,7 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 2. Database Creation for the Project
+## 2. Database Creation for the Project {#Database-Creation}
 
 
 ### a. Check the List of Database
@@ -79,7 +77,8 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 3. Table Creation
+## 3. Table Creation {#Table-Creation}
+
 
 #### Steps to follow before creating the table:
 
@@ -191,7 +190,8 @@ Now, Run `show tables;` to ensure that all the six tables are created.
 ***
 ***
 
-## 4. Data Insertion
+## 4. Data Insertion {#Data-Insertion}
+
 
 In the previous steps, we created six tables. Now, we will insert the data into these tables.
 Here, we will be showing the syntax of 5 rows insertion into each table. (The complete data insertion syntax is available in the Repository)
