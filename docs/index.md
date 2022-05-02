@@ -1,4 +1,4 @@
-# IMDB-Analysis-in-SQL
+# IMDB Data Analysis in SQL
 ![glow (1)](https://user-images.githubusercontent.com/73750698/166188931-4626fcad-4b1d-4abb-bbd7-dc4ad0b6cee2.png)
 
 ***
