@@ -1,8 +1,6 @@
-# IMDB Data Analysis in SQL
+![glow (1)](https://user-images.githubusercontent.com/73750698/166188931-4626fcad-4b1d-4abb-bbd7-dc4ad0b6cee2.png)
 
 <a href="https://datagrad.github.io/"><img src="https://img.shields.io/badge/My%20Data%20Science%20Projects-Click%20here%20to%20Check%20my%20other%20Projects-blue">
-
-![glow (1)](https://user-images.githubusercontent.com/73750698/166188931-4626fcad-4b1d-4abb-bbd7-dc4ad0b6cee2.png)
 
 ***
 
@@ -16,7 +14,7 @@
 
 ***
 
-## 1. Overview {#Overview}
+# 1. Overview {#Overview}
 
 
 This analysis is carried out to support RSVP Movies with a well-analyzed list of global stars to plan a movie for the global audience in 2022.
@@ -46,7 +44,7 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 2. Database Creation for the Project {#Database-Creation}
+# 2. Database Creation for the Project {#Database-Creation}
 
 
 ### a. Check the List of Database
@@ -84,7 +82,7 @@ We will be carrying out the entire analytics process into four segments, where e
 ***
 ***
 
-## 3. Table Creation {#Table-Creation}
+# 3. Table Creation {#Table-Creation}
 
 
 #### Steps to follow before creating the table:
@@ -258,7 +256,7 @@ Now, Run `show tables;` to ensure that all the six tables are created.
 ***
 ***
 
-## 4. Data Insertion {#Data-Insertion}
+# 4. Data Insertion {#Data-Insertion}
 
 
 In the previous steps, we created six tables. Now, we will insert the data into these tables.
