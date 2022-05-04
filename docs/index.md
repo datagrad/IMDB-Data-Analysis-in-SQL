@@ -13,7 +13,8 @@
 5. [Data Analysis](#Data-Analysis)
 
 ***
-
+***
+	
 # 1. Overview {#Overview}
 
 
@@ -385,7 +386,8 @@ Run the command to insert complete data:
 [IMDB File 3 Insert all data](https://github.com/datagrad/IMDB-Analysis-in-SQL/blob/main/IMDB%20File%203%20Insert%20all%20data.sql)
 
 
-
+***
+***
 	
 	
 # Data Analysis {#Data-Analysis}
