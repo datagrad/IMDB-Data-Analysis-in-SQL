@@ -388,8 +388,6 @@ Run the command to insert complete data:
 
 
 
-![glow](https://user-images.githubusercontent.com/73750698/166187815-ae658e89-70cc-430f-bc80-9508b6c35fed.png)
-
 	
 	
 # Data Analysis {#Data-Analysis}
