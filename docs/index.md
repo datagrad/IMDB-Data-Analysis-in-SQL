@@ -90,6 +90,11 @@ We will be carrying out the entire analytics process into four segments, where e
 
 * Download the IMDb dataset. And try to understanding every table and its importance.
 * Understand the ERD and the table details. Study them carefully and understand the relationships between the table.
+
+							
+![image](https://user-images.githubusercontent.com/73750698/166613322-f9ede9ac-15ce-4f59-98b4-4d50f3831db1.png)
+
+	
 * Inspect each table given in the subsequent tabs and understand the features associated with each of them.
 * Draft your table with the correct Data Type and Constraints in a paper or note file.
 * Open your MySQL Workbench and start writing the DDL and DML commands to create the database.
@@ -124,6 +129,20 @@ CREATE TABLE movie (
 
 ```
 
+	
+	
+| 	Table Name: Movie	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	id	| 	Movie Id is a unique ID associated with each movie	| 
+| 	title	| 	Title of the movie	| 
+| 	year	| 	year of Release	| 
+| 	date_published	| 	Date of Movie Release	| 
+| 	duration	| 	Duration of Movie	| 
+| 	country	| 	Country of Release	| 
+| 	worlwide_gross_income	| 	worlwide_gross_income	| 
+| 	languages	| 	Languages released in	| 
+| 	production_company	| 	production company associated with the movie	| 
+
 ***
 
 #### b. Create Table Genre
@@ -134,6 +153,12 @@ CREATE TABLE genre (
 	PRIMARY KEY (movie_id, genre)
 );
 ```
+
+| 	Table Name: Genre	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	movie_id	| 	Movie Id of the movie	| 
+| 	genre	| 	Genre tagged for movie	| 
+
 
 ***
 
@@ -146,6 +171,14 @@ CREATE TABLE director_mapping (
 );
 
 ```
+| 	Table Name: director_mapping	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	movie_id	| 	Movie Id of the movie directed by a director	| 
+| 	name_id	| 	Name ID of the director	| 
+
+
+
+	
 ***
 
 
@@ -160,6 +193,15 @@ CREATE TABLE role_mapping (
 
 ```
 
+| 	Table Name: Role_Mapping	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	movie_id	| 	Movie Id of the movies	| 
+| 	name_id	| 	Name ID of the associated person	| 
+| 	category	| 	Associated responsibility like Actor, director on a movie	| 
+
+
+
+	
 ***
 
 
@@ -175,7 +217,16 @@ CREATE TABLE names (
 );
 ```
 
+| 	Table Name: Names	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	id	| 	Name ID of each individual	| 
+| 	name	| 	Name of each individual	| 
+| 	height	| 	Height of individual	| 
+| 	date_of_birth	| 	DOB	| 
+| 	known_for_movies	| 	Famous or well known movie	| 
+	
 
+	
 ***
 
 #### f. Create Table ratings
@@ -189,6 +240,16 @@ CREATE TABLE ratings (
 );
 
 ```
+	
+| 	Table Name: Ratings	| 	Column Description	| 
+| 	----------- 	| 	----------- 	| 
+| 	movie_id	| 	Movie Id of the movie	| 
+| 	avg_rating	| 	Average Rating of Movie	| 
+| 	total_votes	| 	Total vote counts	| 
+| 	median_rating	| 	Median Rating of the movie	| 
+
+	
+
 ***
 
 Now, Run `show tables;` to ensure that all the six tables are created.
